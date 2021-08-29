@@ -15,8 +15,8 @@ const Home = () => {
         <Container width="100%" type="col" className="homeContainer">
           <Text type="mainHeading" width="100%" center>💻 Home</Text>
           <Text type="subHeading">😎 About</Text>
-          <Text>Hello there, I'm Ganesh Kumar currently pursing 3rd year Computer Science Engineering in Anna University, Chennai.</Text>
-          <Text>I'm a full stack developer who loves to build awesome apps/tools. You can check out my projects <Link href="/projects">here</Link>.
+          <Text>Hello there, Im Ganesh Kumar currently pursing 3rd year Computer Science Engineering in Anna University, Chennai.</Text>
+          <Text>Im a full stack developer who loves to build awesome apps/tools. You can check out my projects <Link href="/projects">here</Link>.
           </Text>
           <Text type="subHeading">🔧 Skills</Text>
           <List type="ul">
