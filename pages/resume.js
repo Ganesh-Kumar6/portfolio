@@ -4,7 +4,7 @@ const Resume = () => {
     const style = useStyles((style, theme) => `
         .resumeContainer{
             width:100%;
-            height:150vw;
+            height:70rem;
         }
         .resume{
             margin-top:2rem;
@@ -13,14 +13,7 @@ const Resume = () => {
         }
         @media(min-width:768px){
             .resumeContainer{
-                width:70%;
-                height:110vw;
-            }
-        }
-        @media(min-width:1024px){
-            .resumeContainer{
-                width:50%;
-                height:70vw;
+                width:45rem;
             }
         }
     `);
@@ -29,7 +22,7 @@ const Resume = () => {
             <Container type="col" width="100%" height="100%" rowCenter customStyles={style}>
                 <Container type="col" rowCenter className="resumeContainer">
                     <Text type="mainHeading" width="100%" center>📄 Resume</Text>
-                    <embed src="/Ganesh-Kumar-Resume.pdf" className="resume" />
+                    <object type="application/pdf" data="/Ganesh-Kumar-Resume.pdf" className="resume" />
                 </Container>
             </Container>
         </Layout>
