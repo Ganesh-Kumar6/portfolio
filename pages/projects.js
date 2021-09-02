@@ -14,7 +14,7 @@ const Projects = () => {
     <Layout title="Projects" disableSidebar>
       <Container width="100%" height="100%" type="col" rowCenter customStyles={style}>
         <Container width="100%" type="col" className="projectsContainer">
-          <Text type="mainHeading">🚀 Projects</Text>
+          <Text type="mainHeading" width="100%" center>🚀 Projects</Text>
           {projectItems.map(({ title, description, source, live, tags }) =>
             <Project title={title} description={description} source={source} live={live} tags={tags} key={title} />
           )}
