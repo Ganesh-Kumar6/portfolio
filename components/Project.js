@@ -21,7 +21,7 @@ const Project = ({ title, description, source, live, tags }) => {
     `);
     return (
         <Container width="100%" height="auto" type="col" customStyles={style}>
-            <Text type="subHeading" width="100%" center>{title}</Text>
+            <Text type="subHeading">{title}</Text>
             {tags &&
                 <Container width="100%" type="row" className="tagsContainer">
                     {tags.split(" | ").map((tag) => <InlineCode className="tag" key={tag}>{tag}</InlineCode>)}
