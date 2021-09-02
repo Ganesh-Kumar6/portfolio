@@ -17,6 +17,18 @@ const headerContents = {
             linkType: "internal",
             position: "right",
         },
+        {
+            item: "Blogs",
+            to: "https://mvganeshkumar.hashnode.dev/",
+            linkType: "external",
+            position: "right",
+        },
+        {
+            item: "Resume",
+            to: "/resume",
+            linkType: "internal",
+            position: "right",
+        },
     ]
 };
 
